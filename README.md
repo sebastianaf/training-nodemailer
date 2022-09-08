@@ -57,5 +57,3 @@ Try out this `POST` query to `localhost:${API_PORT}/email`
 That may looks like this.
 
 ![Email preview](https://github.com/sebastianaf/training-nodemailer/blob/main/preview.png?raw=true)
-
-pending image
