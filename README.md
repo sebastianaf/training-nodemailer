@@ -39,13 +39,13 @@ After type and run the command go to `localhost:${API_PORT}`
 
 ### 6. Send a email
 
-Try with this `POST` query to `localhost:${API_PORT}/email`
+Try out this `POST` query to `localhost:${API_PORT}/email`
 
 ```JSON
 {
     "remitterName":"Nodemailer",
 	"logoURL":"https://i0.wp.com/community.nodemailer.com/wp-content/uploads/2015/10/n2-2.png",
-	"recieverEmails":["sebastianafanador95@gmail.com"],
+	"recieverEmails":["mail@yours.com"],
 	"title":"Notification 🔔",
 	"subject":"📨 Email send from Nodemailer",
 	"body":"Nodemailer is a module for Node.js applications to allow easy as cake email sending. The project got started back in 2010 when there was no sane option to send email messages, today it is the solution most Node.js users turn to by default.<br><br><strong>Sincerely</strong><br>sebastianaf.",
@@ -54,7 +54,8 @@ Try with this `POST` query to `localhost:${API_PORT}/email`
 }
 
 ```
-
 That may looks like this.
+
+![Email preview](https://github.com/sebastianaf/training-nodemailer/blob/main/preview.png?raw=true)
 
 pending image
