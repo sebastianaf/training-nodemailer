@@ -1,12 +1,13 @@
 # training-nodemailer
 
-Training code to use Nodemailer using s running on Docker
+Training code to use Nodemailer client with Express running on Docker
 
 ## Requirements
 
 - NodeJS
 - Docker
 - Docker compose
+- SMTP server
 
 ## Steps
 
