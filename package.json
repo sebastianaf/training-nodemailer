@@ -1,0 +1,40 @@
+{
+  "name": "training-nodemailer",
+  "version": "1.0.0",
+  "description": "Training code to run Express REST API server with Babel running on Docker",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx babel src -d dist",
+    "start": "npx nodemon --exec npx \"babel-node\" src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianaf/training-nodemailer.git"
+  },
+  "keywords": [
+    "nodemailer"
+  ],
+  "author": "sebastianaf",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sebastianaf/training-nodemailer/issues"
+  },
+  "homepage": "https://github.com/sebastianaf/training-nodemailer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.19.0",
+    "dotenv": "^16.0.2",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "joi": "^17.6.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.8"
+  }
+}

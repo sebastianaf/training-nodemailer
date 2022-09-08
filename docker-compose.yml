@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  training-nodemailer-app:
+    container_name: training-nodemailer-app
+    image: training-nodemailer-app
+    restart: always
+    environment:
+      SOME_VAR: ${SOME_VAR}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        API_PORT: ${API_PORT}
+#    ports:
+#      - ${API_PORT}:${API_PORT}
+    networks:
+      - training-nodemailer
+
+networks:
+  training-nodemailer:
+    name: training-nodemailer
