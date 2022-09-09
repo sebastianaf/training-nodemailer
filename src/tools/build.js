@@ -1,5 +1,6 @@
 const emailWithButton = ({
   title,
+  subTitle,
   logoURL,
   subject,
   body,
@@ -218,7 +219,7 @@ const emailWithButton = ({
                                 <h2 style="margin: 0px; color: #34495e; line-height: 170%; text-align: center; word-wrap: break-word; font-weight: normal; font-family: 'Open Sans',sans-serif; font-size: 18px;">
                                   <div>
                                     <div>
-                                      <div><strong>${subject}</strong></div>
+                                      <div><strong>${subTitle}</strong></div>
                                     </div>
                                   </div>
                                 </h2>
@@ -386,7 +387,7 @@ const emailWithButton = ({
   </html>`;
 };
 
-const email = ({ title, logoURL, subject, body, footer, legal }) => {
+const email = ({ title, subTitle, logoURL, subject, body, footer, legal }) => {
   return `<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
   
@@ -597,7 +598,7 @@ const email = ({ title, logoURL, subject, body, footer, legal }) => {
                                 <h2 style="margin: 0px; color: #34495e; line-height: 170%; text-align: center; word-wrap: break-word; font-weight: normal; font-family: 'Open Sans',sans-serif; font-size: 18px;">
                                   <div>
                                     <div>
-                                      <div><strong>${subject}</strong></div>
+                                      <div><strong>${subTitle}</strong></div>
                                     </div>
                                   </div>
                                 </h2>

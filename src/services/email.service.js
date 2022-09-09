@@ -15,6 +15,7 @@ class LoginService {
       remitterName,
       recieverEmails,
       title,
+      subTitle,
       body,
       buttonLink,
       buttonText,
@@ -39,6 +40,7 @@ class LoginService {
     if (buttonLink) {
       html = emailWithButton({
         title,
+        subTitle,
         logoURL,
         subject,
         body,
@@ -50,6 +52,7 @@ class LoginService {
     } else {
       html = email({
         title,
+        subTitle,
         logoURL,
         subject,
         body,

@@ -48,6 +48,7 @@ Try out this `POST` query to `localhost:${API_PORT}/email`
 	"logoURL":"https://i0.wp.com/community.nodemailer.com/wp-content/uploads/2015/10/n2-2.png",
 	"recieverEmails":["mail@yours.com"],
 	"title":"Notification 🔔",
+	"title":"What is Nodemailer?",
 	"subject":"📨 Email send from Nodemailer",
 	"body":"Nodemailer is a module for Node.js applications to allow easy as cake email sending. The project got started back in 2010 when there was no sane option to send email messages, today it is the solution most Node.js users turn to by default.<br><br><strong>Sincerely</strong><br>sebastianaf.",
     "footer":"Nodemailer - Powered by EmailEngine",
